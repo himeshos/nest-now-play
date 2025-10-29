@@ -1,0 +1,172 @@
+import { Property } from '@/types/property';
+
+export const properties: Property[] = [
+  {
+    id: '1',
+    title: 'Modern Luxury Villa with Ocean View',
+    location: 'Malibu, California',
+    city: 'Malibu',
+    price: 1200,
+    type: 'villa',
+    bedrooms: 5,
+    bathrooms: 4,
+    area: 4500,
+    image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&auto=format&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&auto=format&fit=crop',
+    ],
+    description: 'Experience coastal luxury in this stunning modern villa featuring panoramic ocean views, an infinity pool, and high-end finishes throughout. Perfect for those seeking the ultimate California lifestyle.',
+    amenities: ['Ocean View', 'Infinity Pool', 'Private Beach Access', 'Smart Home', 'Gym', 'Wine Cellar'],
+    featured: true,
+  },
+  {
+    id: '2',
+    title: 'Downtown Penthouse Loft',
+    location: 'New York, NY',
+    city: 'New York',
+    price: 850,
+    type: 'apartment',
+    bedrooms: 3,
+    bathrooms: 2,
+    area: 2200,
+    image: 'https://images.unsplash.com/photo-1502672260066-6bc35f0e1ba1?w=800&auto=format&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1502672260066-6bc35f0e1ba1?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&auto=format&fit=crop',
+    ],
+    description: 'Sophisticated penthouse loft in the heart of Manhattan. Floor-to-ceiling windows flood this open-concept space with natural light. Walking distance to finest dining and entertainment.',
+    amenities: ['City View', 'Concierge', 'Rooftop Terrace', 'Gym', 'Pet Friendly', '24/7 Security'],
+    featured: true,
+  },
+  {
+    id: '3',
+    title: 'Cozy Mountain Cabin Retreat',
+    location: 'Aspen, Colorado',
+    city: 'Aspen',
+    price: 450,
+    type: 'house',
+    bedrooms: 3,
+    bathrooms: 2,
+    area: 1800,
+    image: 'https://images.unsplash.com/photo-1542718610-a1d656d1884c?w=800&auto=format&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1542718610-a1d656d1884c?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&auto=format&fit=crop',
+    ],
+    description: 'Charming mountain cabin surrounded by pristine nature. Features a stone fireplace, rustic wood finishes, and breathtaking mountain views. Your perfect escape from city life.',
+    amenities: ['Mountain View', 'Fireplace', 'Hot Tub', 'Ski-in/Ski-out', 'BBQ Area', 'Hiking Trails'],
+  },
+  {
+    id: '4',
+    title: 'Elegant Waterfront Condo',
+    location: 'Miami, Florida',
+    city: 'Miami',
+    price: 680,
+    type: 'condo',
+    bedrooms: 2,
+    bathrooms: 2,
+    area: 1600,
+    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&auto=format&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800&auto=format&fit=crop',
+    ],
+    description: 'Contemporary waterfront condo with stunning bay views. Modern design meets comfort with premium appliances and designer furnishings. Steps away from South Beach.',
+    amenities: ['Water View', 'Beach Access', 'Pool', 'Spa', 'Valet Parking', 'Marina Access'],
+    featured: true,
+  },
+  {
+    id: '5',
+    title: 'Historic Brownstone Residence',
+    location: 'Boston, Massachusetts',
+    city: 'Boston',
+    price: 520,
+    type: 'house',
+    bedrooms: 4,
+    bathrooms: 3,
+    area: 2800,
+    image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&auto=format&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1556912167-f556f1f39faa?w=800&auto=format&fit=crop',
+    ],
+    description: 'Beautiful restored brownstone combining historic charm with modern amenities. Original hardwood floors, ornate moldings, and a chef\'s kitchen. Located in prestigious Back Bay.',
+    amenities: ['Historic District', 'Original Details', 'Private Garden', 'Updated Kitchen', 'Home Office', 'Wine Storage'],
+  },
+  {
+    id: '6',
+    title: 'Modern Studio Apartment',
+    location: 'Seattle, Washington',
+    city: 'Seattle',
+    price: 280,
+    type: 'apartment',
+    bedrooms: 1,
+    bathrooms: 1,
+    area: 650,
+    image: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&auto=format&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1502672260066-6bc35f0e1ba1?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&auto=format&fit=crop',
+    ],
+    description: 'Efficient and stylish studio in vibrant downtown Seattle. Perfect for young professionals. Close to Pike Place Market and waterfront attractions.',
+    amenities: ['City View', 'Bike Storage', 'Fitness Center', 'Co-working Space', 'Transit Access', 'Pet Friendly'],
+  },
+  {
+    id: '7',
+    title: 'Desert Oasis Villa',
+    location: 'Scottsdale, Arizona',
+    city: 'Scottsdale',
+    price: 750,
+    type: 'villa',
+    bedrooms: 4,
+    bathrooms: 3,
+    area: 3200,
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1600566753151-384129cf4e3e?w=800&auto=format&fit=crop',
+    ],
+    description: 'Luxurious desert villa featuring Southwest architecture and resort-style amenities. Enjoy stunning sunset views from your private pool and outdoor living area.',
+    amenities: ['Desert View', 'Private Pool', 'Outdoor Kitchen', 'Golf Course Access', 'Fire Pit', 'Guest House'],
+  },
+  {
+    id: '8',
+    title: 'Lake House Sanctuary',
+    location: 'Lake Tahoe, Nevada',
+    city: 'Lake Tahoe',
+    price: 890,
+    type: 'house',
+    bedrooms: 5,
+    bathrooms: 4,
+    area: 3800,
+    image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&auto=format&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&auto=format&fit=crop',
+    ],
+    description: 'Spectacular lakefront property with private dock and beach. Floor-to-ceiling windows showcase crystal blue waters. Perfect for year-round adventures.',
+    amenities: ['Lake View', 'Private Dock', 'Beach Access', 'Boat Storage', 'Game Room', 'Sauna'],
+  },
+];
+
+// Initialize localStorage with properties if empty
+export const initializeProperties = () => {
+  const stored = localStorage.getItem('properties');
+  if (!stored) {
+    localStorage.setItem('properties', JSON.stringify(properties));
+  }
+};
+
+export const getStoredProperties = (): Property[] => {
+  const stored = localStorage.getItem('properties');
+  return stored ? JSON.parse(stored) : properties;
+};
